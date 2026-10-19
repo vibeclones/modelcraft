@@ -1,0 +1,36 @@
+{
+    "format": "cadcraft-edition",
+    "version": 1,
+    "app": "modelcraft",
+    "name": "ModelCraft",
+    "edition": "browser",
+    "release": "0.6",
+    "semver": "0.6.0",
+    "tag": "modelcraft-v0.6.0",
+    "zip": "modelcraft-browser-edition-v0.6.0.zip",
+    "packed_at": "2026-10-19T00:04:07Z",
+    "from": {
+        "build": "0.6",
+        "released_at": "2026-10-19 00:03 UTC",
+        "git": "28f3444 (dev had uncommitted changes)"
+    },
+    "license": "Apache-2.0",
+    "libs": {
+        "manifold-3d": "3.5.4",
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "three": "0.186.1",
+        "three-gpu-pathtracer": "0.0.26",
+        "three-mesh-bvh": "0.9.15",
+        "bootstrap": "5.3.8",
+        "bootstrap-icons": "1.13.2",
+        "archivo": "5.2.8"
+    },
+    "changes_to_copied_files": [
+        "Library URLs written as /assets/vendor/<lib>/current/ are pinned to the versions listed in release.json."
+    ],
+    "files": 236,
+    "bytes_before_this_file": 9534846,
+    "notes": "ModelCraft's models move: an animation timeline with camera and object keys and Auto key, Render video (480p to 1080p, 24 to 60 fps, WebM or PNG frames) with the same sky, sun, materials and lamps as a rendered picture, and walkthrough videos from your scenes. Review in a VR headset through the browser's WebXR: full size or table top, measure, cut walls open, place issues with a picture, saved in the file and as BCF, and see each other in a live session (tested with a headset emulator, not yet a real headset). A second round adds a guided first model for newcomers, print prep in Check for 3D printing (what is wrong, why, and Fix what can be fixed in one undo step, plus your printer's bed), a lock for a scene's camera, and a clean presentation view inside an open group. Fixed: the Render dialog's sun date and time in the model theme. Every app gets Show bars, Reset the layout, a toolbar menu, an interface size and pen and touch. Spanish (es-MX) and, new, Bahasa Indonesia are machine-made drafts, not yet reviewed."
+}
