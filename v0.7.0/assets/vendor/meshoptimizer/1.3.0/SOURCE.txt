@@ -1,0 +1,5 @@
+meshoptimizer 1.3.0 (MIT, Copyright (c) 2016-2026 Arseny Kapoulkine) — https://github.com/zeux/meshoptimizer
+Taken unmodified from the npm package meshoptimizer@1.3.0 (npm install, 2026-10-22): meshopt_decoder.mjs (sha256 10b313edaa0e322b0c1b46443f6c8b186b42139fe1eca189d50c09511d0ebedc, the
+decoder only, with its WebAssembly embedded) and LICENSE.md. The encoder, simplifier, clusterizer and tests are left out.
+Used by ModelCraft's glTF import (0.7 XF.1: EXT_meshopt_compression / KHR_meshopt_compression), loaded only when a file uses
+it. Import map: "meshopt-decoder" → this folder's meshopt_decoder.mjs.
