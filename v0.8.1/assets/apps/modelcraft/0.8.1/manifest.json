@@ -1,0 +1,52 @@
+{
+  "app": "modelcraft",
+  "css": [
+    "modelcraft.css",
+    "compute/compute.css", "shading/shading.css", "nurbs-ui/nurbs-ui.css"
+  ],
+  "module": "modelcraft.js",
+  "propgrid": true,
+  "imports": {
+    "three": "./assets/vendor/three/0.186.1/three.module.js",
+    "three/webgpu": "./assets/vendor/three-webgpu/0.186.1/three.webgpu.js",
+    "three/tsl": "./assets/vendor/three-webgpu/0.186.1/three.tsl.js",
+    "three-webgpu/addons/": "./assets/vendor/three-webgpu/0.186.1/addons/",
+    "manifold-3d": "./assets/vendor/manifold-3d/3.5.4/manifold.js",
+    "@noble/curves/": "./assets/vendor/noble-curves/2.4.0/",
+    "@noble/hashes/": "./assets/vendor/noble-hashes/2.4.0/",
+    "@noble/ciphers/": "./assets/vendor/noble-ciphers/2.4.0/",
+    "three-gpu-pathtracer": "./assets/vendor/three-gpu-pathtracer/0.0.26/index.module.js",
+    "three-mesh-bvh": "./assets/vendor/three-mesh-bvh/0.9.15/index.module.js",
+    "three/examples/jsm/postprocessing/Pass.js": "./assets/vendor/three-gpu-pathtracer/0.0.26/three-addons/Pass.js",
+    "draco-wrapper": "./assets/vendor/draco/1.5.9/draco_wasm_wrapper_gltf.js",
+    "draco-wasm": "./assets/vendor/draco/1.5.9/draco_decoder_gltf.wasm",
+    "meshopt-decoder": "./assets/vendor/meshoptimizer/1.3.0/meshopt_decoder.js",
+    "oidn-weights": "./assets/vendor/oidn-weights/2.3.0/rt_hdr_alb_nrm_small.tza"
+  },
+  "phone": true,
+  "devices": true,
+  "problems": true,
+  "nodes": true,
+  "calc": true,
+  "reasons": true,
+  "teamwork": true,
+  "totals": true,
+  "lessons": true,
+  "ai-suggest": true,
+  "ai-activity": true,
+  "ai-ask": true,
+  "access": true,
+  "fields": true,
+  "panels": [
+    "move",
+    "window"
+  ],
+  "accepts": [
+    "handoff",
+    "live",
+    "site"
+  ],
+  "input": "input-modelcraft.js",
+  "workspaces": { "layouts": ["docked", "toolbox", "autorev"], "adapter": "workspace-modelcraft.js" },
+  "engines": true
+}
