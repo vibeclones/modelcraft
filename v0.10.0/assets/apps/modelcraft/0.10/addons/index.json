@@ -1,0 +1,20 @@
+{
+  "addons": [
+    "flow",
+    "trusscraft",
+    "cabinetcraft",
+    "factory",
+    "twin",
+    "print3d",
+    "slicer-kiri",
+    "slicer-prusaslicer",
+    "slicer-orcaslicer",
+    "printer-bambu",
+    "slicer-resin",
+    "printer-resin-goo",
+    "printer-resin-sl1",
+    "resin-calibration",
+    "printer-resin-chitu",
+    "printer-resin-anycubic"
+  ]
+}

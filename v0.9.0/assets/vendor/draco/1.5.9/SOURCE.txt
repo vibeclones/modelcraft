@@ -1,0 +1,6 @@
+Draco 1.5.9 (Apache-2.0, Copyright Google LLC) — https://github.com/google/draco
+Taken unmodified from the repository at tag 1.5.9, folder javascript/ (fetched 2026-10-22): the glTF-only WebAssembly decoder
+draco_wasm_wrapper_gltf.js (sha256 9927d2886d34906aec5258d091a162f3d9f59ab7e84fd6a81961987bca3c363f) and draco_decoder_gltf.wasm (sha256 39b78cec9398af525d76f7eecf336ccf829891cec9524905e55fe686499834bf); LICENSE from the repository root.
+The encoder, the asm.js builds and the full (non-glTF) decoder are left out.
+Used by ModelCraft's glTF import (0.7 XF.1: KHR_draco_mesh_compression), loaded only when a file uses it, in a classic worker
+(modelcraft/dev/io/draco-worker.js) through importScripts. Import map: "draco-wrapper" → this folder's wrapper.
